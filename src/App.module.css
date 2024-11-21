@@ -1,0 +1,20 @@
+body {
+  display: flex;
+  width: 99vw;
+  height: 95vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #121212; /* Deep black background */
+  color: #e2e2e2; /* Light text */
+  font-family: "Arial", sans-serif; /* Clean font */
+  margin: 0;
+}
+
+/* Calculator Container */
+.calculator {
+  background-color: #1a1a1a; /* Dark gray container */
+  width: 220px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 255, 255, 0.2); /* Subtle cyan glow */
+  padding: 15px;
+}

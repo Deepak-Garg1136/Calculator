@@ -1,0 +1,31 @@
+.buttons {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: #1d1d1d; /* Dark gray base */
+  color: #00ffff; /* Neon cyan text */
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 0 8px rgba(0, 255, 255, 0.8); /* Cyan glow */
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease,
+    box-shadow 0.3s ease;
+}
+
+/* Button Hover */
+.buttons:hover {
+  background-color: #282828; /* Slightly lighter gray */
+  /* color: #39ff14; Neon green text */
+  /* box-shadow: 0 0 12px rgba(57, 255, 20, 1); Strong green glow */
+  transform: scale(1.05); /* Slight scaling for feedback */
+}
+
+/* Button Active State */
+.buttons:active {
+  background-color: #3a3a3a; /* Even lighter gray for pressed effect */
+  color: #00ffff; /* Neon cyan text */
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.8); /* Cyan glow */
+  transform: scale(0.95); /* Slight shrink on click */
+}

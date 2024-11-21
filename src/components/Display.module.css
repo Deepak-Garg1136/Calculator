@@ -1,0 +1,15 @@
+.display {
+  margin: 10px auto;
+  width: 90%;
+  height: 50px; /* Fixed height for consistency */
+  background-color: #1d1d1d; /* Darker gray display */
+  color: #00ffff; /* Neon cyan text */
+  font-size: 28px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  text-align: right;
+  padding: 10px;
+  box-shadow: inset 0 0 8px #00ffff; /* Inner cyan glow */
+  cursor: default;
+}
